@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="25dp"
+    android:layout_marginEnd="25dp"
+    android:background="@drawable/dialog_bacground"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gamoitana_teqsti_rac_mindoda_ro_gamoetana_dialogs_gamoitana_teqsti_rac_mindoda_ro_gamoetana_dialogs_gamoitana_teqsti_rac_mindoda_ro_gamoetana_dialogs"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/continuee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/continuee"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:background="#006200EE"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
